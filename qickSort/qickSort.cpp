@@ -23,9 +23,8 @@ void quickSort(int nums[], int l, int r){
             std::swap(nums[left], nums[right]);
         }
     }
-    quickSort(nums, )
-
-
+    quickSort(nums, l, right);
+    quickSort(nums, right+1, r);
 }
 int main(){
     int n = 0;
