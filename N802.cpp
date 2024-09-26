@@ -1,7 +1,7 @@
 //
 // Created by Wang Jianan on 24-9-24.
 //
-// 离散化 区间和 前缀和之差
+// 离散化求区间和
 #include <algorithm>
 #include <iostream>
 #include <vector>
