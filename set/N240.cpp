@@ -5,7 +5,7 @@
 #include <vector>
 
 std::vector<int> vec(50001);  //A B C 集合
-std::vector<int> dis(50001);   //到祖宗节点的距离
+std::vector<int> dis(50001);   //到祖宗节点的距离  %3 == 0: 同类, %3 == 1
 
 int search(int x) {
     if(vec[x] != x) {
